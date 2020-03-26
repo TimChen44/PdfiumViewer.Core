@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
@@ -20,11 +21,11 @@ namespace PdfiumViewer
         static PanningZoomingScrollControl()
         {
             Application.AddMessageFilter(new WheelFilter());
-
-            //using (var stream = typeof(PanningZoomingScrollControl).Assembly.GetManifestResourceStream(typeof(PanningZoomingScrollControl).Namespace + ".pan.cur"))
-            //{
-            //    PanCursor = new Cursor(stream);
-            //}
+       
+            using (var stream = new MemoryStream(Properties.Resources.pan))
+            {
+                PanCursor = new Cursor(stream);
+            }
         }
 
         private double _zoom = 1;
