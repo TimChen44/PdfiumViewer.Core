@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\PdfiumViewer.Demo\ExportBitmapsForm.cs" Link="ExportBitmapsForm.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\ExportBitmapsForm.Designer.cs" Link="ExportBitmapsForm.Designer.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\MainForm.cs" Link="MainForm.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\MainForm.Designer.cs" Link="MainForm.Designer.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\PageRangeForm.cs" Link="PageRangeForm.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\PageRangeForm.Designer.cs" Link="PageRangeForm.Designer.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\PdfRangeDocument.cs" Link="PdfRangeDocument.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\PrintMultiplePagesForm.cs" Link="PrintMultiplePagesForm.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\PrintMultiplePagesForm.Designer.cs" Link="PrintMultiplePagesForm.Designer.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\Properties\Resources.Designer.cs" Link="Properties\Resources.Designer.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\Properties\Settings.Designer.cs" Link="Properties\Settings.Designer.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\SearchForm.cs" Link="SearchForm.cs" />
+    <Compile Include="..\PdfiumViewer.Demo\SearchForm.Designer.cs" Link="SearchForm.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\PdfiumViewer.Demo\ExportBitmapsForm.resx" Link="ExportBitmapsForm.resx" />
+    <EmbeddedResource Include="..\PdfiumViewer.Demo\MainForm.resx" Link="MainForm.resx" />
+    <EmbeddedResource Include="..\PdfiumViewer.Demo\PageRangeForm.resx" Link="PageRangeForm.resx" />
+    <EmbeddedResource Include="..\PdfiumViewer.Demo\PrintMultiplePagesForm.resx" Link="PrintMultiplePagesForm.resx" />
+    <EmbeddedResource Include="..\PdfiumViewer.Demo\Properties\Resources.resx" Link="Properties\Resources.resx" />
+    <EmbeddedResource Include="..\PdfiumViewer.Demo\SearchForm.resx" Link="SearchForm.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PdfiumViewer.Core\PdfiumViewer.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\PdfiumViewer.Demo\Properties\Settings.settings" Link="Properties\Settings.settings" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfiumViewer.Native.x86.v8-xfa" Version="2018.4.8.256" />
+    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+  </ItemGroup>
+
+</Project>

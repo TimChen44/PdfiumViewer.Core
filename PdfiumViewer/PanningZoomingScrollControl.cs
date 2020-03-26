@@ -21,10 +21,10 @@ namespace PdfiumViewer
         {
             Application.AddMessageFilter(new WheelFilter());
 
-            using (var stream = typeof(PanningZoomingScrollControl).Assembly.GetManifestResourceStream(typeof(PanningZoomingScrollControl).Namespace + ".pan.cur"))
-            {
-                PanCursor = new Cursor(stream);
-            }
+            //using (var stream = typeof(PanningZoomingScrollControl).Assembly.GetManifestResourceStream(typeof(PanningZoomingScrollControl).Namespace + ".pan.cur"))
+            //{
+            //    PanCursor = new Cursor(stream);
+            //}
         }
 
         private double _zoom = 1;
