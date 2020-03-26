@@ -6,6 +6,12 @@
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>PdfiumViewer</AssemblyName>
     <RootNamespace>PdfiumViewer</RootNamespace>
+
+    <PackageId>PdfiumViewer.Core</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Pieter van Ginkel, TimChen</Authors>
+    <PackageDescription>PDF viewer based on Google's PDFium.</PackageDescription>
+    <RepositoryUrl>https://github.com/TimChen44/PdfiumViewer.Core</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
