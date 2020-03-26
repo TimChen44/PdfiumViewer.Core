@@ -1,8 +1,6 @@
-# PdfiumViewer
+# PdfiumViewer.Code
 
 Apache 2.0 License.
-
-[Download from NuGet](http://nuget.org/packages/PdfiumViewer).
 
 ## Archived
 
@@ -79,11 +77,6 @@ is configured on a build server to compile PDFium daily. Please refer to
 the [PdfiumBuild](https://github.com/pvginkel/PdfiumBuild) project page
 for the location of the output of the build server. The PdfiumViewer specific
 libraries are located in the `PdfiumViewer-...` target directories.
-
-## Bugs
-
-Bugs should be reported through github at
-[http://github.com/pvginkel/PdfiumViewer/issues](http://github.com/pvginkel/PdfiumViewer/issues).
 
 ## License
 
