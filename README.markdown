@@ -1,6 +1,6 @@
 # PdfiumViewer.Code
 
-Apache 2.0 License.
+将pvginkel/PdfiumViewer做了.Net Core 3.1的移植
 
 ## Archived
 
