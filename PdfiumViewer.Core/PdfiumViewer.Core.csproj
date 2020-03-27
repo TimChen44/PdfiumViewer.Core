@@ -8,7 +8,7 @@
     <RootNamespace>PdfiumViewer</RootNamespace>
 
     <PackageId>PdfiumViewer.Core</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Pieter van Ginkel, TimChen</Authors>
     <PackageDescription>PDF viewer based on Google's PDFium.</PackageDescription>
     <RepositoryUrl>https://github.com/TimChen44/PdfiumViewer.Core</RepositoryUrl>
@@ -62,21 +62,6 @@
     <Compile Include="..\PdfiumViewer\ShadeBorder.cs" Link="ShadeBorder.cs" />
     <Compile Include="..\PdfiumViewer\StreamExtensions.cs" Link="StreamExtensions.cs" />
     <Compile Include="..\PdfiumViewer\StreamManager.cs" Link="StreamManager.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="..\PdfiumViewer\Resources\disk_blue.png" Link="Resources\disk_blue.png" />
-    <Content Include="..\PdfiumViewer\Resources\printer.png" Link="Resources\printer.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-E.png" Link="Resources\ShadeBorder-E.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-N.png" Link="Resources\ShadeBorder-N.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-NE.png" Link="Resources\ShadeBorder-NE.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-NW.png" Link="Resources\ShadeBorder-NW.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-S.png" Link="Resources\ShadeBorder-S.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-SE.png" Link="Resources\ShadeBorder-SE.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-SW.png" Link="Resources\ShadeBorder-SW.png" />
-    <Content Include="..\PdfiumViewer\Resources\ShadeBorder-W.png" Link="Resources\ShadeBorder-W.png" />
-    <Content Include="..\PdfiumViewer\Resources\zoom_in.png" Link="Resources\zoom_in.png" />
-    <Content Include="..\PdfiumViewer\Resources\zoom_out.png" Link="Resources\zoom_out.png" />
   </ItemGroup>
 
   <ItemGroup>
