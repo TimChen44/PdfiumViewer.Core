@@ -10,7 +10,7 @@
     <PackageId>PdfiumViewer.Core</PackageId>
     <Version>1.0.2</Version>
     <Authors>Pieter van Ginkel, TimChen</Authors>
-    <PackageDescription>PdfiumViewer支持.net 3.1</PackageDescription>
+    <PackageDescription>PdfiumViewer支持.net core 3.1</PackageDescription>
     <RepositoryUrl>https://github.com/TimChen44/PdfiumViewer.Core</RepositoryUrl>
   </PropertyGroup>
 
