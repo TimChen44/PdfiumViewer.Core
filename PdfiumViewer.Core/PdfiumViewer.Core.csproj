@@ -8,10 +8,14 @@
     <RootNamespace>PdfiumViewer</RootNamespace>
 
     <PackageId>PdfiumViewer.Core</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>Pieter van Ginkel, TimChen</Authors>
     <PackageDescription>PdfiumViewer支持.net core 3.1</PackageDescription>
     <RepositoryUrl>https://github.com/TimChen44/PdfiumViewer.Core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/TimChen44/PdfiumViewer.Core</PackageProjectUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -74,6 +78,13 @@
 
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
