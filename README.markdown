@@ -4,7 +4,7 @@
 
 ## NuGet
 ```
-Install-Package PdfiumViewer.Core -Version 1.0.2
+Install-Package PdfiumViewer.Core
 ```
 
 ## Archived
