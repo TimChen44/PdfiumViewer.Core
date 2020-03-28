@@ -2,6 +2,11 @@
 
 将pvginkel/PdfiumViewer做了.Net Core 3.1的移植
 
+## NuGet
+```
+Install-Package PdfiumViewer.Core -Version 1.0.2
+```
+
 ## Archived
 
 I regret to announce I'm archiving this project. I haven't been able to spend any real time on this for a long time now, and must face the fact I'm not in a position to properly support this project.
