@@ -3,8 +3,14 @@
 将pvginkel/PdfiumViewer做了.Net Core 3.1的移植
 
 ## NuGet
+
 ```
 Install-Package PdfiumViewer.Core
+```
+
+```
+Install-Package PdfiumViewer.Native.x86_64.v8-xfa
+Install-Package PdfiumViewer.Native.x86.v8-xfa
 ```
 
 ## Archived
