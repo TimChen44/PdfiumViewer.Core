@@ -10,7 +10,17 @@
     <PackageId>PdfiumViewer.Core</PackageId>
     <Version>1.0.4</Version>
     <Authors>Pieter van Ginkel, TimChen</Authors>
-    <PackageDescription>PdfiumViewer支持.net core 3.1</PackageDescription>
+    <PackageDescription>
+      PdfiumViewer是基于PDFium项目的PDF查看器。
+
+      PdfiumViewer提供了许多用于处理PDF文件的组件：
+
+      PdfDocument是用于呈现PDF文档的基类；
+
+      PdfRenderer是一个WinForms控件，可以呈现PdfDocument；
+
+      PdfiumViewer是一个WinForms控件，它承载一个PdfRenderer控件，并且添加了一个工具栏来保存或打印PDF文件。
+    </PackageDescription>
     <RepositoryUrl>https://github.com/TimChen44/PdfiumViewer.Core</RepositoryUrl>
     <PackageProjectUrl>https://github.com/TimChen44/PdfiumViewer.Core</PackageProjectUrl>
     <PackageReleaseNotes></PackageReleaseNotes>
@@ -38,5 +48,11 @@
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net472'">
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
