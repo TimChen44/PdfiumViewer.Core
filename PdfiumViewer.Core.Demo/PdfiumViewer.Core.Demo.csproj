@@ -45,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PdfiumViewer.Core\PdfiumViewer.Core.csproj" />
+    <ProjectReference Include="..\PdfiumViewer\PdfiumViewer.csproj" />
   </ItemGroup>
 
 </Project>

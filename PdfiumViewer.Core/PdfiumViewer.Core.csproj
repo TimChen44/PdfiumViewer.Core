@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net2</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>PdfiumViewer</AssemblyName>
     <RootNamespace>PdfiumViewer</RootNamespace>
@@ -85,6 +85,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net2'">
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
 
 </Project>
