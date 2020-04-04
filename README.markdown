@@ -13,28 +13,17 @@ Install-Package PdfiumViewer.Native.x86_64.v8-xfa
 Install-Package PdfiumViewer.Native.x86.v8-xfa
 ```
 
-## Archived
+## 介绍
 
-I regret to announce I'm archiving this project. I haven't been able to spend any real time on this for a long time now, and must face the fact I'm not in a position to properly support this project.
+PdfiumViewer是基于PDFium项目的PDF查看器。
 
-I understand that even though I haven't been able to spend time, other developers have stepped in helping out answering issues, and archiving this project will make it more difficult finding help using PdfiumViewer. I'm sorry for this inconvenience.
+PdfiumViewer提供了许多用于处理PDF文件的组件：
 
-Together with archiving this project, I will also be archiving the [PdfiumBuild](https://github.com/pvginkel/PdfiumBuild) project. I'll make a number of successful builds available in the PdfiumBuild repository for anyone who needs them, but the build server will be shutdown as part of archiving these projects.
+PdfDocument是用于呈现PDF文档的基类；
 
-I've had a great time developing this project and helping you out using this project, and I'm sad I have to now close this down. I hope PdfiumViewer has been of value to you. The source code and NuGet packages won't be going anywhere, so keep using them if they're of value to you.
+PdfRenderer是一个WinForms控件，可以呈现PdfDocument；
 
-## Introduction
-
-PdfiumViewer is a PDF viewer based on the PDFium project.
-
-PdfiumViewer provides a number of components to work with PDF files:
-
-* PdfDocument is the base class used to render PDF documents;
-
-* PdfRenderer is a WinForms control that can render a PdfDocument;
-
-* PdfiumViewer is a WinForms control that hosts a PdfRenderer control and
-  adds a toolbar to save the PDF file or print it.
+PdfiumViewer是一个WinForms控件，它承载一个PdfRenderer控件，并且添加了一个工具栏来保存或打印PDF文件。
 
 ## Compatibility
 
