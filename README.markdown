@@ -27,7 +27,7 @@ PdfiumViewer是一个WinForms控件，它承载一个PdfRenderer控件，并且�
 
 ## Compatibility
 
-The PdfiumViewer library has been tested with Windows XP and Windows 8, and
+The PdfiumViewer library has been tested with Windows XP , Windows 8 and Windows 10, and
 is fully compatible with both. However, the native PDFium libraries with V8
 support do not support Windows XP. See below for instructions on how to
 reference the native libraries.
