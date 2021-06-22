@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>net472;netcoreapp3.1;net2</TargetFrameworks>
+    <TargetFrameworks>net472;netcoreapp3.1;net4.8</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>PdfiumViewer</AssemblyName>
     <RootNamespace>PdfiumViewer</RootNamespace>
